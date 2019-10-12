@@ -25,7 +25,7 @@ class JJWKeychainTests: XCTestCase {
         super.setUp()
         let appIdentifier = Bundle.main.infoDictionary?["AppIdentifierPrefix"] as! String
         kcWrapper = JJWKeychainKit(serviceName: "test.jjw.keychain", accessGroup: "\(appIdentifier)com.jiajingwei.JJWKeychainDemo")
-//        kcWrapper = JJWKeychainKit(serviceName: "jia")
+        
     }
 
     override func tearDown() {
